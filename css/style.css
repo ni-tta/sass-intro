@@ -7,20 +7,40 @@ html, body {
   font-size: 14px;
   background-color: #e6e6e6; }
 
-h1, h2, h3 {
+h1, h2, h4 {
   text-align: center;
   color: white; }
+
+h3{
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
 
 p {
   margin-left: 5px; }
 
-#header {
+hr {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.Wrapper {
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  position: relative; }
+
+.Header {
   height: 50px;
   background-color: white;
   width: 100%; }
 
-#header-text {
-  padding: 8px; }
+.Header__text {
+  padding: 8px; 
+  color:white;}
 
 .Content {
   height: 100%;
@@ -33,37 +53,31 @@ p {
   left: 0;
   margin-left: 645px; }
 
-#top {
+.Top {
   background-color: black;
   height: 400px; }
 
-#padded {
+.Top__padded {
   padding: 100px; }
 
 .ArticleCard {
   border: 1px #7D7D7D solid;
   width: 580px;
   margin-top: 10px;
-  background-color: white; }
+  background-color: white; 
+  }
 
 .ArticleCard__img {
   zoom: 50%;
   margin: auto;
   padding: 10px; }
 
+.ArticleCard__person{
+  color:#0AC92B;
+}
+
 .ArticleCard__icon {
   border-radius: 50%;
   float: left;
   margin: 0px 5px 5px 5px; }
-
-hr {
-  margin-left: 5px;
-  margin-right: 5px; }
-
-
-.Wrapper {
-  min-height: 100%;
-  height: auto;
-  height: 100%;
-  position: relative; }
 
